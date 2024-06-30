@@ -629,6 +629,7 @@ footer {
     .search-box {
         align-items: center;
         margin-left: 30px;
+        display: none;
     }
 
     .overlay-content {

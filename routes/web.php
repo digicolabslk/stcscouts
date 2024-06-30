@@ -17,6 +17,10 @@ Route::get('', function () {
     return view('home');
 });
 
+Route::get('/new', function () {
+    return view('intro');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });
@@ -25,6 +29,6 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/img', function () {
+Route::get('/imgold', function () {
     return view('bg.jpg');
 });
