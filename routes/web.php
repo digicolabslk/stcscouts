@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use  App\Http\Controllers\SitemapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,8 +18,15 @@ Route::get('', function () {
     return view('home');
 });
 
+Route::get('/sitemap.xml', [SitemapController::class, 'generateXmlSitemap']);
+
+
 Route::get('/new', function () {
-    return view('intro');
+    return view('home');
+});
+
+Route::get('/sitemap', function () {
+    return view('sitemap');
 });
 
 Route::get('/contact', function () {

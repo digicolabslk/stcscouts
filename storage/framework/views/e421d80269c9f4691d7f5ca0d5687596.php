@@ -114,4 +114,4 @@
 
 </script>
 
-</html><?php /**PATH D:\Onella\OFFICE\Scouts\stcscouts\resources\views/home.blade.php ENDPATH**/ ?>
+</html><?php /**PATH D:\Onella\OFFICE\Scouts\stcscouts\resources\views/home_old.blade.php ENDPATH**/ ?>

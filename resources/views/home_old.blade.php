@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
   <title>StcScouts</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -14,7 +16,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
 
-<link href="<?php echo e(asset('css/style.css')); ?>" rel="stylesheet">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 </head>
 
@@ -43,7 +52,7 @@
   </div>
 </div>
 
-  <?php echo $__env->make("layouts.header", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>  
+  @include("layouts.header")  
 
   <section id="section-01">
     <div class="slider">
@@ -106,12 +115,12 @@
   <!-- /onclick js -->
   </div>
 
-  <?php echo $__env->make("layouts.footer", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+  @include("layouts.footer")
 
 </body>
 
-<script src="<?php echo e(asset ('js/script.js')); ?>"></script>
+<script src="{{asset ('js/script.js')}}"></script>
 
 </script>
 
-</html><?php /**PATH C:\xampp\htdocs\stc\stcscouts\resources\views/home_old.blade.php ENDPATH**/ ?>
+</html>
