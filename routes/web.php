@@ -37,6 +37,14 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/imgold', function () {
-    return view('bg.jpg');
+Route::get('/about-the-site', function () {
+    return view('about-the-site');
+});
+
+Route::get('/troop-profile', function () {
+    return view('troop-profile');
+});
+
+Route::get('/photo-gallery', function () {
+    return view('photo-gallery');
 });

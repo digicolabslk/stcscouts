@@ -1,6 +1,6 @@
-@extends('layouts.master')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
     <section class="section border-0 m-0"
         style="background-image: url(images/front_slide.jpg); background-size:
 				cover; background-position: center; height: 542px;">
@@ -37,40 +37,40 @@
                             College, Mount Lavinia
                         </p>
 
-                        {{--									<p class="text-4 text-color-light font-weight-light mb-0" --}}
-                        {{--									   data-plugin-animated-letters data-plugin-options="{'startDelay': 2000, --}}
-                        {{--									   'minWindowWidth': 0}"> --}}
-                        {{--										The Official Web Portal of the 16<sup>th</sup> Colombo Scout Group of S. Thomas' College, Mount Lavinia --}}
-                        {{--									</p> --}}
+                        
+                        
+                        
+                        
+                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    {{--        <div class="home-intro light border border-bottom-0 mb-0"> --}}
-    {{--            <div class="container"> --}}
+    
+    
 
-    {{--                <div class="row align-items-center"> --}}
-    {{--                    <div class="col-lg-8"> --}}
-    {{--                        <p class="font-weight-bold text-color-dark"> --}}
-    {{--                            The fastest way to grow your business with the leader in <span --}}
-    {{--                                    class="highlighted-word highlighted-word-animation-1 text-color-primary font-weight-semibold text-5">Technology</span> --}}
-    {{--                            <span>Check out our options and features included.</span> --}}
-    {{--                        </p> --}}
-    {{--                    </div> --}}
-    {{--                    <div class="col-lg-4"> --}}
-    {{--                        <div class="get-started text-start text-lg-end"> --}}
-    {{--                            <a href="#" class="btn btn-primary btn-lg text-3 font-weight-semibold btn-py-2 px-4">Get --}}
-    {{--                                Started Now</a> --}}
-    {{--                            <div class="learn-more">or <a href="index.html" class="font-weight-bold">learn more.</a> --}}
-    {{--                            </div> --}}
-    {{--                        </div> --}}
-    {{--                    </div> --}}
-    {{--                </div> --}}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-    {{--            </div> --}}
-    {{--        </div> --}}
+    
+    
 
     <div class="container py-5"
         style="background-image: url(images/flames.jpg);  background-size: cover;
@@ -427,4 +427,6 @@
             </div>
         </div>
     </div>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\Projects\stcscouts\resources\views/home.blade.php ENDPATH**/ ?>
