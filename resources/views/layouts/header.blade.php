@@ -32,10 +32,10 @@
                                                 The Troop
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="{{url('troop-profile')}}">Present Trop
+                                                <li><a class="dropdown-item" href="{{url('troop-profile')}}">Present Troop
                                                         Profile</a></li>
-                                                <li><a class="dropdown-item" href="page-faq.html">Instructor</a></li>
-                                                <li><a class="dropdown-item" href="page-login.html">The Group
+                                                <li><a class="dropdown-item" href="{{url('instructors')}}">Instructor</a></li>
+                                                <li><a class="dropdown-item" href="{{url('the-group-committee')}}">The Group
                                                         Committee</a></li>
                                             </ul>
                                         </li>
@@ -44,8 +44,7 @@
                                                 The Club Pack
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="page-careers.html">Home</a></li>
-                                                <li><a class="dropdown-item" href="page-faq.html">History of Club
+                                                <li><a class="dropdown-item" href="{{url('history-of-the-16th-colombo-cub-pack')}}">History of Club
                                                         Pack</a></li>
                                                 <li><a class="dropdown-item" href="page-login.html">Clubs News</a></li>
                                                 <li><a class="dropdown-item" href="page-user-profile.html">Clubs Pack
@@ -66,7 +65,7 @@
                                                 <li><a class="dropdown-item" href="{{ url('photo-gallery') }}">Photo
                                                         Gallery</a>
                                                 </li>
-                                                <li><a class="dropdown-item" href="page-faq.html">Video Gallery</a></li>
+                                                <li><a class="dropdown-item" href="https://www.youtube.com/stcscouts"  target="_blank">Video Gallery</a></li>
 
                                             </ul>
                                         </li>
@@ -86,7 +85,7 @@
                                                 Badge Work
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="page-careers.html">Badgework - New
+                                                <li><a class="dropdown-item" href="{{url('badgework-new-syllabus')}}">Badgework - New
                                                         Syllabus</a>
                                                 </li>
                                                 <li><a class="dropdown-item" href="page-faq.html">Badgework - Old

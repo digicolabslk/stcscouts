@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use  App\Http\Controllers\SitemapController;
+use App\Http\Controllers\SitemapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,4 +47,20 @@ Route::get('/troop-profile', function () {
 
 Route::get('/photo-gallery', function () {
     return view('photo-gallery');
+});
+
+Route::get('/badgework-new-syllabus', function () {
+    return view('badgework-new-syllabus');
+});
+
+Route::get('/instructors', function () {
+    return view('instructors');
+});
+
+Route::get('/history-of-the-16th-colombo-cub-pack', function () {
+    return view('history-of-the-16th-colombo-cub-pack');
+});
+
+Route::get('/the-group-committee', function () {
+    return view('the-group-committee');
 });

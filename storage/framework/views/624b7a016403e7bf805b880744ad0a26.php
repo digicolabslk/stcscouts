@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 align-self-center p-static order-2 text-center">
-                    <h1 class="text-white font-weight-bold text-8">Contact Us</h1>
+                    <h1 class="text-white font-weight-bold text-8">Photo Gallery</h1>
                     
                 </div>
 
