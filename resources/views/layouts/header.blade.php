@@ -7,7 +7,7 @@
                     <div class="header-row pe-4">
                         <div class="header-logo">
                             <a href="{{ url('/') }}">
-                                <img alt="Porto" width="100" height="48" data-sticky-width="82"
+                                <img alt="stcscouts_logo" width="48" height="48" data-sticky-width="82"
                                     data-sticky-height="40" src="images/stcscouts_logo.jpg">
                             </a>
                         </div>
@@ -37,25 +37,19 @@
                                                 <li><a class="dropdown-item" href="{{url('instructors')}}">Instructor</a></li>
                                                 <li><a class="dropdown-item" href="{{url('the-group-committee')}}">The Group
                                                         Committee</a></li>
+                                                        <li><a class="dropdown-item" href="{{url('the-scout-dunk')}}">Request the Scout Dunk</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
-                                                The Club Pack
+                                                The Cub Pack
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="{{url('history-of-the-16th-colombo-cub-pack')}}">History of Club
+                                                <li><a class="dropdown-item" href="{{url('history-of-the-16th-colombo-cub-pack')}}">History of Cub
                                                         Pack</a></li>
-                                                <li><a class="dropdown-item" href="page-login.html">Clubs News</a></li>
-                                                <li><a class="dropdown-item" href="page-user-profile.html">Clubs Pack
+                                                <li><a class="dropdown-item" href="{{url('cub-pack-leaders')}}">Cub Pack
                                                         Leaders</a></li>
                                             </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="index.html">
-                                                News
-                                            </a>
-
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
@@ -88,24 +82,12 @@
                                                 <li><a class="dropdown-item" href="{{url('badgework-new-syllabus')}}">Badgework - New
                                                         Syllabus</a>
                                                 </li>
-                                                <li><a class="dropdown-item" href="page-faq.html">Badgework - Old
+                                                <li><a class="dropdown-item" href="{{url('badgework-old-syllabus')}}">Badgework - Old
                                                         Syllabus</a></li>
 
                                             </ul>
                                         </li>
 
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
-                                                Events
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="page-careers.html">ESCAPADE</a>
-                                                </li>
-                                                <li><a class="dropdown-item" href="page-faq.html">Request the Scout
-                                                        Dunk</a></li>
-
-                                            </ul>
-                                        </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="{{ url('/contact') }}">
                                                 Contact Us
@@ -122,12 +104,12 @@
                 <div class="header-column header-column-border-left flex-grow-0 justify-content-center">
                     <div class="header-row ps-4 justify-content-end">
                         <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean m-0">
-                            <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank"
+                            <li class="social-icons-facebook"><a href="https://www.facebook.com/stcscouts" target="_blank"
                                     title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank"
-                                    title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank"
-                                    title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="social-icons-instagram"><a href="https://www.instagram.com/stcscouts/" target="_blank"
+                                    title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li class="social-icons-youtube"><a href="https://www.youtube.com/stcscouts" target="_blank"
+                                    title="Linkedin"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                         <button class="btn header-btn-collapse-nav ms-0 ms-sm-3" data-bs-toggle="collapse"
                             data-bs-target=".header-nav-main nav">

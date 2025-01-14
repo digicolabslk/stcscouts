@@ -64,3 +64,16 @@ Route::get('/history-of-the-16th-colombo-cub-pack', function () {
 Route::get('/the-group-committee', function () {
     return view('the-group-committee');
 });
+
+Route::get('/the-scout-dunk', function () {
+    return view('the-scout-dunk');
+});
+
+Route::get('/badgework-old-syllabus', function () {
+    return view('badgework-old-syllabus');
+});
+
+Route::get('/cub-pack-leaders', function () {
+    return view('cub-pack-leaders');
+});
+
