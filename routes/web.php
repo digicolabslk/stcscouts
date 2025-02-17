@@ -57,10 +57,6 @@ Route::get('/instructors', function () {
     return view('instructors');
 });
 
-Route::get('/history-of-the-16th-colombo-cub-pack', function () {
-    return view('history-of-the-16th-colombo-cub-pack');
-});
-
 Route::get('/the-group-committee', function () {
     return view('the-group-committee');
 });
@@ -77,3 +73,37 @@ Route::get('/cub-pack-leaders', function () {
     return view('cub-pack-leaders');
 });
 
+Route::get('/history-of-scouting-at-college', function () {
+    return view('History/History-of-scouting-at-college');
+});
+
+
+Route::get('/history-of-scouting-at-college-2', function () {
+    return view('History/history-of-scouting-at-college-2');
+});
+
+Route::get('/history-of-scouting-at-college-3', function () {
+    return view('History/history-of-scouting-at-college-3');
+});
+
+
+
+Route::get('/history-of-the-16th-colombo-cub-pack', function () {
+    return view('History/history-of-the-16th-colombo-cub-pack');
+});
+
+Route::get('/mr-w-i-muttiah', function () {
+    return view('History/mr-w-i-muttiah');
+});
+
+Route::get('/mr-rex-jayasinha', function () {
+    return view('History/mr-rex-jayasinha');
+});
+
+Route::get('/2nd-asia-pacific-6th-new-zealand-venture-scout-camp-1995', function () {
+    return view('Recent_Year_Reports/2nd-asia-pacific-6th-new-zealand-venture-scout-camp-1995');
+});
+
+Route::get('/year-report-1995', function () {
+    return view('Recent_Year_Reports/year-report-1995');
+});
