@@ -183,8 +183,7 @@ Route::get('/year-report-2003', function () {
 });
 
 
-
- Route::get('/tribal-craft-2004', function () {
+Route::get('/tribal-craft-2004', function () {
     return view('Recent_Year_Reports/2004/tribal-craft-2004');
 });
 
@@ -282,6 +281,17 @@ Route::get('/ONLINE-CAMP-FIRE', function () {
     return view('Recent_Year_Reports/2020/ONLINE-CAMP-FIRE');
 });
 
+Route::get('/Past-Troop-Leaders', function () {
+    return view('Recent_Year_Reports/Past-Troop-Leaders');
+});
+
+Route::get('/King’s-and-Queen’s-Scouts', function () {
+    return view('Recent_Year_Reports/King’s-and-Queen’s-Scouts');
+});
+
+Route::get('/President’s-Award-Winners', function () {
+    return view('Recent_Year_Reports/President’s-Award-Winners');
+});
 
 
 

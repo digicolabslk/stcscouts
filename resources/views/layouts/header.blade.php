@@ -471,18 +471,21 @@
 
 
                                                         <li>
-                                                            <a class="dropdown-item" href="#">Past Troop
-                                                                Leaders</a>
+                                                            <a class="dropdown-item" 
+                                                            href="/Past-Troop-Leaders">Past Troop Leaders</a>
+                                                                
 
                                                         </li>
                                                         <li>
-                                                            <a class="dropdown-item" href="#">King’s and Queen’s
-                                                                Scouts</a>
+                                                            <a class="dropdown-item" 
+                                                            href="King’s-and-Queen’s-Scouts">King’s and Queen’s Scouts</a>
+                                                                
 
                                                         </li>
                                                         <li>
-                                                            <a class="dropdown-item" href="#">President’s Award
-                                                                Winners</a>
+                                                            <a class="dropdown-item" 
+                                                            href="President’s-Award-Winners">President’s Award Winners</a>
+                                                                
 
                                                         </li>
 
