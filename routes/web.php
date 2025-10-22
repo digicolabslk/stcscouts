@@ -229,7 +229,7 @@ Route::get('/year-report-2011', function () {
 
 
 Route::get('/Centennial-Flames-2012', function () {
-    return view('Recent_Year_Reports/2012/Centennial-Flames-2012');
+    return view('Recent_Year_Reports/2012/centennial-flames-2012');
 });
 
 
