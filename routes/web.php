@@ -171,7 +171,7 @@ Route::get('/year-report-2001', function () {
 });
 
 Route::get('/Tribe-Out-2002', function () {
-    return view('Recent_Year_Reports/2002//Tribe-Out-2002');
+    return view('Recent_Year_Reports/2002/Tribe-Out-2002');
 });
 
 Route::get('/year-report-2002', function () {
@@ -229,24 +229,24 @@ Route::get('/year-report-2011', function () {
 
 
 Route::get('/Centennial-Flames-2012', function () {
-    return view('Recent_Year_Reports/2012//Centennial-Flames-2012');
+    return view('Recent_Year_Reports/2012/Centennial-Flames-2012');
 });
 
 
 Route::get('/International-Achievement', function () {
-    return view('Recent_Year_Reports/2012//International-Achievement');
+    return view('Recent_Year_Reports/2012/International-Achievement');
 });
 
 Route::get('/year-report-2012', function () {
-    return view('Recent_Year_Reports/2012//year-report-2012');
+    return view('Recent_Year_Reports/2012/year-report-2012');
 });
 
 Route::get('/year-report-2013', function () {
-    return view('Recent_Year_Reports/2013//year-report-2013');
+    return view('Recent_Year_Reports/2013/year-report-2013');
 });
 
 Route::get('/year-report-2014', function () {
-    return view('Recent_Year_Reports/2014//year-report-2014');
+    return view('Recent_Year_Reports/2014/year-report-2014');
 });
 
 Route::get('/year-report-2015', function () {
