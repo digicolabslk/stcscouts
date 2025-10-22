@@ -274,7 +274,7 @@ Route::get('/year-report-2019', function () {
 });
 
 Route::get('/ESCAPADE=At-Home-“Kids”', function () {
-    return view('Recent_Year_Reports/2020/ESCAPADE=At-Home-“Kids”');
+    return view('Recent_Year_Reports/2020/escapade-at-home-kids');
 });
 
 Route::get('/ONLINE-CAMP-FIRE', function () {
