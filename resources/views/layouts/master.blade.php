@@ -17,7 +17,18 @@
            Scouts of all ages.";
     @endphp
 
-    <title>{{ $siteTitle }}</title>
+    @php
+        // Build the page title from the first <h1> in the page's content section.
+        $pageTitle = $siteTitle;
+        if (preg_match('/<h1[^>]*>(.*?)<\/h1>/is', $__env->yieldContent('content'), $h1Match)) {
+            $h1Text = trim(preg_replace('/\s+/', ' ', html_entity_decode(strip_tags($h1Match[1]), ENT_QUOTES)));
+            if ($h1Text !== '') {
+                $pageTitle = $h1Text . ' - STCSCOUTS';
+            }
+        }
+    @endphp
+
+    <title>{{ $pageTitle }}</title>
 
     <meta name="keywords"
         content="Scout Movement, youth development, outdoor activities, leadership training,
