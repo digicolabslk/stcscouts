@@ -79,7 +79,7 @@
             <div class="col-md-10 mx-md-auto">
                 <h1 class="word-rotator slide font-weight-bold text-8 mb-3 appear-animation"
                     data-appear-animation="fadeInUpShorter">
-                    <span>Are you a </span>
+                    <span>Are you <span class="word-rotator-article">a</span> </span>
                     <span class="word-rotator-words bg-primary">
                         <b class="is-visible">Smart</b>
                         <b>Courteous</b>
